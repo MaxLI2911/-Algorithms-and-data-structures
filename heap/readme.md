@@ -3,11 +3,11 @@
 ## Performance Results Summary
 
 ### 1. Heap Creation 
-![image](heap/creating_heaps.png)
+![image](creating_heaps.png)
 * **Observations:** Building the Max-Heap scales efficiently and linearly $O(n)$ with the number of elements. For a dataset of 10,000 elements, the total creation time is approximately `0.010` seconds. 
 
 ### 2. Deleting Max Element
-![image](heap/deleting_max_heaps.png)
+![image](deleting_max_heaps.png)
 * **Observations:** The execution time required to remove the maximum element (the root) from the heap scales logarithmically/sub-linearly as the dataset grows, reaching roughly `0.012` seconds at 10,000 elements.
 
 ---
